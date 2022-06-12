@@ -7,24 +7,16 @@
 
   <body>
     <div class="input-area">
-      <input placeholder="TODOを入力" />
-      <button>追加</button>
+      <input id="js-add-text" placeholder="TODOを入力" />
+      <button id="js-add-button">追加</button>
     </div>
     <div class="incomplate-area">
-      <p>未完了のTODO</p>
-      <ul>
-        <li>
-          TODOです<span><button>完了</button><button>削除</button></span>
-        </li>
-      </ul>
+      <p class="title">未完了のTODO</p>
+      <ul id="js-incomplate-area"></ul>
     </div>
     <div class="complate-area">
-      <p>完了したTODO</p>
-      <ul>
-        <li>
-          TODOです<span><button>戻す</button></span>
-        </li>
-      </ul>
+      <p class="title">完了したTODO</p>
+      <ul id="js-complate-area"></ul>
     </div>
 
     <script src="src/index.js"></script>
