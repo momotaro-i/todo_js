@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+}
+.incomplate-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+}
+.complate-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+}
